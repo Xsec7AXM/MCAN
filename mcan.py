@@ -95,7 +95,7 @@ while True:
 	data = input('input-> ')
 	if data is '1':
 		os.system('cd lib/OSIF && python2 osif.py')
-		break
+		time.sleep(2)
 	elif data is '2':
 		os.system('clear')
 		os.system('cd lib/Malicious && python2 malicious.py')
